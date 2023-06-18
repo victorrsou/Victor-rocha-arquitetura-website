@@ -1,0 +1,60 @@
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menuhover{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Anek Bangla', sans-serif
+}
+.menuhover:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 127, 127);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 7px;
+    transition: 0.3s;
+}
+.menuhover:hover:after{
+    width: 100%;
+}
+
+.abaservicos{
+    background-color: rgb(212, 212, 212);
+}
+
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff5a6b;
+    --bs-btn-border-color: #ff5a6b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #e95160;
+    --bs-btn-hover-border-color: #e95160;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #cc4754;
+    --bs-btn-active-border-color: #b6434e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ff5a6b;
+    --bs-btn-disabled-border-color: #ff5a6b;
+}
+
+.hoverlogo:hover {
+    transform: scale(105%);
+    transition: 700ms;
+}
+.hovericon:hover {
+    transform: scale(115%);
+    transition: 400ms;
+}
+
+.hoverimagem:hover {
+    opacity: 0.7;
+    transition: 400ms;
+}
